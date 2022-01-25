@@ -225,6 +225,7 @@ class WebServer {
 			builder.append("HTTP/1.1 400 Bad Request\n");
 			builder.append("ContentType: text/html; charset=utf-8\n");
 			builder.append("\n");
+			builder.append("Error 400: Bad Request....");
 			builder.append("Please use format /multiply?num1=#&num2=#\n");
 			builder.append("E.g. /multiply?num1=3&num2=4");
 		
@@ -234,6 +235,7 @@ class WebServer {
 		builder.append("HTTP/1.1 400 Bad Request\n");
 		builder.append("ContentType: text/html; charset=utf-8\n");
 		builder.append("\n");
+		builder.append("Error 400 Bad Request...");
 		builder.append("Please use format /multiply?num1=#&num2=#\n");
 		builder.append("E.g. /multiply?num1=3&num2=4");
 	}	
@@ -261,6 +263,7 @@ class WebServer {
 			builder.append("HTTP/1.1 404 Not Found\n");
 			builder.append("ContentType: text/html; charset=utf-8\n");
 			builder.append("\n");
+			builder.append("Error 404 Not Found...");
 			builder.append("Please use format: github?query=users/<username>/repos and check username is valid.");
 		}else{
 
@@ -282,6 +285,7 @@ class WebServer {
 					builder.append("HTTP/1.1 400 Bad Request\n");
 					builder.append("ContentType: text/html; charset=utf-8\n");
 					builder.append("\n");
+					builder.append("Error 400 Bad Request");
 					builder.append("Please use format: github?query=users/<username>/repos");
 				}
 			}else{
@@ -310,6 +314,7 @@ class WebServer {
 		  builder.append("HTTP/1.1 400 Bad Request\n");
 		  builder.append("ContentType: text/html; charset=utf-8\n");
 		  builder.append("\n");
+		  builder.append("Error 400 Bad Request...");
 		  builder.append("Please use format: query=users/<username>/repos");
 	  }
 		
@@ -348,17 +353,17 @@ class WebServer {
 				builder.append("HTTP/1.1 400 Bad Request\n");
 				builder.append("ContentType: text/html; charset-utf-8\n");
 				builder.append("\n");
+				builder.append("Error 400 Bad Request...");
 				builder.append("Please use format /color?color1=<color>&color2=<color>\n");
 				builder.append("or /color?color1=<color>");
 			}
 		}catch(StringIndexOutOfBoundsException e){
 			System.err.println("No Arguments: StringIndexOutOfBoundsException");
-			//this is 200 because I want to allow no arguments.
-			builder.append("HTTP1.1 200 OK\n");
+			builder.append("HTTP1.1 400 Bad Request\n");
 			builder.append("ContentType: text/html; charset-utf-8\n");
 			builder.append("\n");
 			builder.append("<html>");
-			builder.append("<body style=\"background: linear-gradient(to right, #66417F 0%, #B2D1FF 100%);\"> secret color... use format /color?color1=color&color2=color");
+			builder.append("<body style=\"background: linear-gradient(to right, #66417F 0%, #B2D1FF 100%);\"> secret color... Error 400 Bad Request. Please use format /color?color1=color&color2=color");
 		        builder.append(" find colors at https://www.w3schools.com/colors/color_names.asp</body>");
 			builder.append("<html>");
 		}
@@ -421,27 +426,28 @@ class WebServer {
 				builder.append("<body>");
 				builder.append("<svg width=\"1600\" height=\"900\">");
 				builder.append("<text x\"0\" y=\"15\" fill=\"black\">");
+				builder.append("Error 404 Not Found...");
 				builder.append("Please use format /shape?shape='shape' you can add color, width, and height optionally");
 				builder.append("</text>");
 				builder.append("<circle cx=\"50%\" cy =\"50%\" rx=\""+ width +"\" fill=\""+ color +"\"></circle>");
 			}	
-			builder.append("</svg>");
-			builder.append("</body>");
-			builder.append("</html>");
 		}catch(StringIndexOutOfBoundsException e){
-			//200 because i want to allow no arguments
-			builder.append("HTTP/1.1 200 OK\n");
+			builder.append("HTTP/1.1 400 Bad Request\n");
 			builder.append("ContentType: text/html; charset=utf-8\n");
 			builder.append("\n");
 			builder.append("<html>");
 			builder.append("<body>");
 			builder.append("<svg width=\"1600\" height=\"900\">");
 			builder.append("<circle cx =\"50%\" cy=\"50%\" r=\"200\" fill=\"pink\"> </circle>");
-			builder.append("<text x =\"0\" y = \"15\" fill=\"black\">Please use /shape?shape='shape'&width='number between 1 and 900'&color='color'</text>");
-			builder.append("</svg>");
-			builder.append("</body>");
-			builder.append("</html>");
+			builder.append("<text x =\"0\" y = \"15\" fill=\"black\">Error 400 Bad Request...Please use /shape?shape='shape'&width='number between 1 and 900'&color='color'</text>");
+		} catch(NumberFormatException ex){
+			System.err.println("Invalid string in argument\n");
+			builder.append("Error 400 Bad Request...Please use a smaller number");
 		}
+		builder.append("</svg>");
+		builder.append("</body>");
+		builder.append("</html>");
+
 	}else {
           // if the request is not recognized at all
 

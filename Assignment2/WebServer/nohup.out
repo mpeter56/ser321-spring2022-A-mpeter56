@@ -925,3 +925,2377 @@ Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.16429889
 Received: 
 FINISHED PARSING HEADER
 
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] still could not bind()
+sudo: gradle: command not found
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Bad file descriptor
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :FunWebServer
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=yellow HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=yellow
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET /github? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /github? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /github? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+No Arguments: StringIndexOutOfBoundsException
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/github?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: DNT: 1
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en,en-US;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape=ellipse&color=50&width=100&height=100 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape=ellipse&color=50&width=100&height=100 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape=ellipse&color=50&width=100&height=100 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape=ellipse&color=50&width=100&height=100
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape=ellipse&color=50&height=100 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape=ellipse&color=50&height=100
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape=ellipse&color=50&height=100 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape=ellipse&color=50&height=100
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape=ellipse&color=50&width=100&height=100
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&color=yellow&width=50&height=100 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&color=yellow&width=50&height=100
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.0
+Received: Host: localhost:9000
+Received: Connection: close
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=brown&color2=black HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=brown&color2=black HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=brown&color2=black HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=brown&color2=black
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1= HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1= HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color= HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color=
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET /color?color1= HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET /color?color1= HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1= HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=violet&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?/color1=yello HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?/color1=yello
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?/color1 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?/color1
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Purpose: prefetch
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /18.216.204.163:9000/color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/18.216.204.163:9000/color?color1=violet&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /18.216.204.163:9000/color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/18.216.204.163:9000/color?color1=violet&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /18.216.204.163:9000/color?color1=red&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/18.216.204.163:9000/color?color1=red&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=red&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=red&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=violet&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?/shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?/shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?/shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?/shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Bad file descriptor
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :FunWebServer
+java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+	at funHttpServer.WebServer.<init>(WebServer.java:46)
+	at funHttpServer.WebServer.main(WebServer.java:32)
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+Received: GET /shape?/shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?/shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] still could not bind()
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Bad file descriptor
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :FunWebServer
+java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:135)
+	at funHttpServer.WebServer.<init>(WebServer.java:46)
+	at funHttpServer.WebServer.main(WebServer.java:32)
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+Received: GET /shape? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?/shape HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?/shape
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Bad file descriptor
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :FunWebServer
+Received: GET /color? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape? HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Purpose: prefetch
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?/shape HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?/shape
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?/color HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+No Arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?/color
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=violet&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=magenta&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=magenta&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=magenta&color2=IceBlue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=magenta&color2=IceBlue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=magenta&color2=LightBlue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=magenta&color2=LightBlue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.0
+Received: Host: localhost:9000
+Received: Connection: close
+Received: User-Agent: Mozilla/5.0
+Received: Accept-Encoding: gzip
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=violet&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=tan&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=tan&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=tan&color2=bdfskljkdslf HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=tan&color2=bdfskljkdslf
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=tan&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=tan&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=red&color2=green HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: DNT: 1
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: DNT: 1
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=red&color2=green
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: DNT: 1
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: DNT: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: DNT: 1
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: DNT: 1
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: DNT: 1
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=100&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: DNT: 1
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Received: DNT: 1
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=100&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.0
+Received: Host: localhost:9000
+Received: Connection: close
+Received: User-Agent: masscan/1.3 (https://github.com/robertdavidgraham/masscan)
+Received: Accept: */*
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /multiply?nope HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+No arguments: StringIndexOutOfBoundsException
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/multiply?nope
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET /multiply?num1= HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Invalid string in argumment
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/multiply?num1=
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /github?query=awp HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Exception in url request:https://api.github.com/awp
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/github?query=awp
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET /github?query=users/arp/rep HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Exception in url request:https://api.github.com/users/arp/rep
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/github?query=users/arp/rep
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: DNT: 1
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en,en-US;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=%27color%27 HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: DNT: 1
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en,en-US;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Received: 
+FINISHED PARSING HEADER
+
+Received: null
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: DNT: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en,en-US;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: DNT: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en,en-US;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: DNT: 1
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/color?color1=violet&color2=blue
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en,en-US;q=0.9,zh-TW;q=0.8,zh;q=0.7
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /color?color1=violet&color2=blue HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=999999999999999999999999999999999999&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Exception in thread "main" java.lang.NumberFormatException: For input string: "999999999999999999999999999999999999"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at funHttpServer.WebServer.createResponse(WebServer.java:413)
+	at funHttpServer.WebServer.<init>(WebServer.java:51)
+	at funHttpServer.WebServer.main(WebServer.java:32)
+
+> Task :FunWebServer FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':FunWebServer'.
+> Process 'command '/opt/jdk-11/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 57m 28s
+2 actionable tasks: 1 executed, 1 up-to-date
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] still could not bind()
+Exception in thread "DisconnectableInputStream source reader" org.gradle.api.UncheckedIOException: java.io.IOException: Bad file descriptor
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:61)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:41)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:127)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method)
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at org.gradle.util.DisconnectableInputStream$1.run(DisconnectableInputStream.java:98)
+	... 1 more
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :FunWebServer
+Received: GET /shape?shape=ellipse&width=999999999999999999999999999999999999&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Cache-Control: max-age=0
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Invalid string in argument
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=999999999999999999999999999999999999&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=999999999999999999999&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Invalid string in argument
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=999999999999999999999&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=999999999999&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Invalid string in argument
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=999999999999&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=999999&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=999999&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=999&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=999&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=999&height=200&color=tan HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=999&height=200&color=tan
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=98&height=200&color=tan HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=98&height=200&color=tan
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=298&height=200&color=tan HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=298&height=200&color=tan
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: Cookie: _ga=GA1.1.1106427562.1642988996; _gid=GA1.1.241297894.1642988996
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET / HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=300&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Referer: http://18.216.204.163:9000/
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=300&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Received: GET /shape?shape=ellipse&width=999999999999999999999999999999&height=200&color=tomato HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: Upgrade-Insecure-Requests: 1
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
+Invalid string in argument
+
+Received: GET /favicon.ico HTTP/1.1
+Received: Host: 18.216.204.163:9000
+Received: Connection: keep-alive
+Received: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 OPR/82.0.4227.50
+Received: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Received: Referer: http://18.216.204.163:9000/shape?shape=ellipse&width=999999999999999999999999999999&height=200&color=tomato
+Received: Accept-Encoding: gzip, deflate
+Received: Accept-Language: en-US,en;q=0.9
+Received: 
+FINISHED PARSING HEADER
+
