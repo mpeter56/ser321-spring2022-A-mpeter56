@@ -1,0 +1,58 @@
+// set as java application
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+   // https://mvnrepository.com/artifact/org.json/json
+compile group: 'org.json', name: 'json', version: '20200518'
+}
+
+
+//define main class
+mainClassName = 'Quotes'
+
+// task will run UDPServer with default parameters
+// can be overwritten with: gradle UDPServer -Pport='port'
+task UDPServer(type: JavaExec) {
+  group 'udp'
+  description 'Runs the server for the quote guessing game'
+
+  classpath = sourceSets.main.runtimeClasspath
+
+  main = 'Assignment3Starter.UDPServer'
+  
+  if (project.hasProperty("port")){
+  	args(project.getProperty('port'));
+  } else{
+  	args(8080);
+  }
+  
+ // standardInput = System.in
+}
+
+//task will run UDPClient with default paramaters
+// can be overwritten with: gradle UDPClient -Pport='port' -Phost='host'
+task UDPClient(type: JavaExec) {
+  group 'udp'
+  description 'Displays a GUI for a game of quote guessing'
+
+  classpath = sourceSets.main.runtimeClasspath
+
+  main = 'Assignment3Starter.UDPClient'
+  
+  if (project.hasProperty("port") && project.hasProperty("host")){
+  	args(project.getProperty('port'), project.getProperty('host'));
+  }else if(project.hasProperty("port") && !project.hasProperty("host")){
+  	args(project.getProperty('port'), "localhost");
+  }else if(!project.hasProperty("port") && project.hasProperty("host")){
+  	args( 8080 , project.getProperty('host'));
+  }else{
+  	args(8080, "localhost");
+  }
+  //standardInput = System.in
+}
+
+
