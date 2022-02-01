@@ -83,7 +83,7 @@ public class ClientGui implements Assignment3Starter.OutputPanel.EventHandlers {
 	public ClientGui() {
 		frame = new JDialog();
 		frame.setLayout(new GridBagLayout());
-		frame.setMinimumSize(new Dimension(1000, 1000));
+		frame.setMinimumSize(new Dimension(800, 800));
 		frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
 		// setup the top picture frame
