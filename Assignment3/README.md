@@ -103,3 +103,18 @@ server was attempting to do: e.g. "Could not send win image to client"
 If the fileNotFoundException occors for the leaderboard it will be caught and the leader board will be created.
 If the connection is lost the server will catch the exception and print Client disconnect and then close the socket.
 
+###Protocol Change from TCP to UDP
+
+####TCP
+TCP Server uses a server socket
+TCP Client uses a Socket
+both client and server use input and output streams to send data to eachother
+TCP Server calls socket.accept(); to do a blocking wait for a client to connect
+
+####UDP
+UDP Server uses a Datagram socket
+UDP Client uses a Datagram socket
+UDP Server and client use NetworkUtils.Tuple to recieve data through the socket.
+UDP client sends a message "hello" to the server and then the server will send over the first message.
+UDP client and server use NetworkUtils.Send to send information.
+UDP client and server convert to JSONObject using Tuple.Payload as paramaters in the JSONUtils.fromByteArray.
