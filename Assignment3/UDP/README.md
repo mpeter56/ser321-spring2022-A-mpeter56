@@ -27,7 +27,7 @@ The server will update the leader board with the client's high score.
 If the client does not answer three correctly within a minute they lose. The server will send a losing 
 image and the client can either enter their name to go to the main menu or they can enter quit to quit.
 
-### Checklist of Fullfilled Requirements
+## Checklist of Fullfilled Requirements
 
 1. Ask for name
 2. Receive and greet by name
@@ -47,11 +47,11 @@ image and the client can either enter their name to go to the main menu or they 
 16.Error handling is provided
 17.Players can get to the main menu by entering their name again or can quit typing quit
 
-### How To Run
-#### Server
+## How To Run
+### Server
 To run the server open the UDP file and enter gradle build.
 Then enter gradle UDPServer(you can either use the default port 8080, or add " -Pport='port'" at the end)
-#### Client
+### Client
 To run the client open the UDP file and enter gradle build.
 Then enter gradle UDPClient(you can either use the default port 8080 and default IP address "localhost"
 or you can add " -Pport='port'" and/or " -Phost='IPAddress'" to the end.
@@ -74,7 +74,7 @@ If the client does not guess 3 correctly in under a minute they lose.
 In both the winning and losing screen the client can either enter their name to return to the main menu or
 the client can enter quit to quit. 
 
-### UML
+## UML
 https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/UDP/img/UMLdiagram.JPG
 ![alt text](img/UMLdiagram.JPG)
 
@@ -89,7 +89,7 @@ response: {"datatype" <int:1-string, 2-byte array, 3-int> "type": <"string", "im
 
 error response:{"error": <error strings> }
 
-### Robust
+## Robust
 
 When the server asks the client's name, the client can enter anything and the server will accept it as a name.
 In the main menu the client should enter either "1" or "2", if the client enters something else the server will
@@ -103,15 +103,15 @@ server was attempting to do: e.g. "Could not send win image to client"
 If the fileNotFoundException occors for the leaderboard it will be caught and the leader board will be created.
 If the connection is lost the server will catch the exception and print Client disconnect and then close the socket.
 
-###Protocol Change from TCP to UDP
+## Protocol Change from TCP to UDP
 
-####TCP
+### TCP
 TCP Server uses a server socket
 TCP Client uses a Socket
 both client and server use input and output streams to send data to eachother
 TCP Server calls socket.accept(); to do a blocking wait for a client to connect
 
-####UDP
+### UDP
 UDP Server uses a Datagram socket
 UDP Client uses a Datagram socket
 UDP Server and client use NetworkUtils.Tuple to recieve data through the socket.
