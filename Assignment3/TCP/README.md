@@ -79,12 +79,15 @@ https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/T
 ![alt text](img/UMLdiagram.JPG)
 
 ### Protocol
-The protocol uses header datatype 1, 2, and 3.
-If datatype is 1 then the payload is a string. 
-If datatype is 2 then the payload is an image.
-If datatype is 3 then the payload is an int.
-The payload has a header that tells the program what it contains e.g. selected, name, etc.
+The protocol uses JSON and is based off of the AdvancedCustomProtocol faux solution protocol.
+request: { "selected" :<string: "1"=leaderboard, "2"=quote(image), "<name>"=mainmenu, "quit"=close(out,in)
+		"more"=quote(image(same character)), "next"=score && quote(image(next character)), 
+		"<guess>"=(score && (quote(image(next character))) || win(image)) || try again || lose(image),>
+	 "name":<string: name=name>}
 
+response: {"datatype" <int:1-string, 2-byte array, 3-int> "type": <"string", "image", "number"}
+
+error response:{"error": <error strings> }
 ### Robust
 
 The program catches any IOExceptions and prints out the exact place in the code where it happened
