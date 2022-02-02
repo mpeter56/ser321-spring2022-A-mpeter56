@@ -1,5 +1,9 @@
 # Assignment 3 UDP
 
+## Screencasts
+https://www.youtube.com/watch?v=xktwn1oIUIo
+https://youtu.be/4YznfiCwL28
+
 ## Description
 This program can run a server by using 'gradle UDPServer' and a client using 'gradle UDPClient'
 The server will wait for a client to connect. When the client connect it will open a GUI
