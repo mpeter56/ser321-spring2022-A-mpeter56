@@ -1,9 +1,9 @@
 # Assignment 3 UDP
 
 ## Screencasts
-###Main Screencast
+### Main Screencast
 https://www.youtube.com/watch?v=xktwn1oIUIo
-###UCP TCP NetworkUtils
+### UCP TCP NetworkUtils
 https://youtu.be/4YznfiCwL28
 
 ## Description
@@ -53,7 +53,7 @@ image and the client can either enter their name to go to the main menu or they 
 16.Error handling is provided
 17.Players can get to the main menu by entering their name again or can quit typing quit
 
-###How To Run
+## How To Run
 ### Server
 To run the server open the UDP file and enter gradle build.
 Then enter gradle UDPServer(you can either use the default port 8080, or add " -Pport='port'" at the end)
@@ -109,15 +109,15 @@ server was attempting to do: e.g. "Could not send win image to client"
 If the fileNotFoundException occors for the leaderboard it will be caught and the leader board will be created.
 If the connection is lost the server will catch the exception and print Client disconnect and then close the socket.
 
-##Protocol Change from TCP to UDP
+## Protocol Change from TCP to UDP
 
-###TCP
+### TCP
 TCP Server uses a server socket
 TCP Client uses a Socket
 both client and server use input and output streams to send data to eachother
 TCP Server calls socket.accept(); to do a blocking wait for a client to connect
 
-###UDP
+### UDP
 UDP Server uses a Datagram socket
 UDP Client uses a Datagram socket
 UDP Server and client use NetworkUtils.Tuple to recieve data through the socket.
