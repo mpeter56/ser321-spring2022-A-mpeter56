@@ -79,7 +79,7 @@ In both the winning and losing screen the client can either enter their name to 
 the client can enter quit to quit. 
 
 ### UML
-https://raw.githubusercontent.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/UDP/img/UMLdiagram.JPG
+https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/UDP/img/UMLdiagram.JPG
 ![alt text](UDP/img/UMLdiagram.JPG)
 
 ### Protocol
