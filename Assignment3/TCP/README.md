@@ -75,9 +75,8 @@ In both the winning and losing screen the client can either enter their name to 
 the client can enter quit to quit. 
 
 ### UML
-https://raw.githubusercontent.com/mpeter56/ser321-spring2022-A-mpeter56/main/Assignment3/UDP/img/UMLdiagram.JPG
-![alt text](https://github.com/mpeter56/ser321-spring2022-A-mpeter56/Assignment3/UDP/img/UMLdiagram.JPG)
-![Alt text](\img\UMLdiagram.JPG?raw=true "Title")
+https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/TCP/img/UMLdiagram.JPG
+![alt text](img/UMLdiagram.JPG)
 
 ### Protocol
 The protocol uses header datatype 1, 2, and 3.
