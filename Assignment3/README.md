@@ -1,10 +1,6 @@
-# Assignment 3
+# Assignment 3 UDP
 
-##
-ScreenCast
-https://www.youtube.com/watch?v=xktwn1oIUIo
-
-### Description
+## Description
 This program can run a server by using 'gradle UDPServer' and a client using 'gradle UDPClient'
 The server will wait for a client to connect. When the client connect it will open a GUI
 with a window for pictures and an output panel, with a text field and a submit button.
@@ -53,11 +49,11 @@ image and the client can either enter their name to go to the main menu or they 
 
 ### How To Run
 #### Server
-To run the server open the TCP or UDP file and enter gradle build.
-Then enter gradle TCPServer or UDPServer(you can either use the default port 8080, or add " -Pport='port'" at the end)
+To run the server open the UDP file and enter gradle build.
+Then enter gradle UDPServer(you can either use the default port 8080, or add " -Pport='port'" at the end)
 #### Client
-To run the client open the TCP or UDP file and enter gradle build.
-Then enter gradle TCPClient or UDPClient(you can either use the default port 8080 and default IP address "localhost"
+To run the client open the UDP file and enter gradle build.
+Then enter gradle UDPClient(you can either use the default port 8080 and default IP address "localhost"
 or you can add " -Pport='port'" and/or " -Phost='IPAddress'" to the end.
 Once the client is runnin a GUI window will open with a "Hi There" image and an output panel asking the 
 client's name.
@@ -80,7 +76,7 @@ the client can enter quit to quit.
 
 ### UML
 https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/UDP/img/UMLdiagram.JPG
-![alt text](UDP/img/UMLdiagram.JPG)
+![alt text](img/UMLdiagram.JPG)
 
 ### Protocol
 The protocol uses JSON and is based off of the AdvancedCustomProtocol faux solution protocol.
@@ -95,7 +91,15 @@ error response:{"error": <error strings> }
 
 ### Robust
 
-The program catches any IOExceptions and prints out the exact place in the code where it happened
-and the stack trace. 
-The server will catch a FileNotFoundException if the leader board does not exist and it will create
-a new leader board file.
+When the server asks the client's name, the client can enter anything and the server will accept it as a name.
+In the main menu the client should enter either "1" or "2", if the client enters something else the server will
+respond with "Invalid selection: " + message.get("selected") + " is not an option" and will reload the mainmenu
+with the directions for input.
+If the client is in the leaderboard they should type their name to get to the main menu, this is printed in the
+leaderboard, if the client selects something else it will print "try again"
+During the game if the client enter's anything that is not a valid option, the server will send "try again"
+any IOException is caught and will print out the stack trace as well as a message describing what exactly the 
+server was attempting to do: e.g. "Could not send win image to client"
+If the fileNotFoundException occors for the leaderboard it will be caught and the leader board will be created.
+If the connection is lost the server will catch the exception and print Client disconnect and then close the socket.
+
