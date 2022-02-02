@@ -81,7 +81,6 @@ the client can enter quit to quit.
 ### UML
 https://raw.githubusercontent.com/mpeter56/ser321-spring2022-A-mpeter56/main/Assignment3/UDP/img/UMLdiagram.JPG
 ![alt text](UDP/img/UMLdiagram.JPG)
-![Alt text](UDP\img\UMLdiagram.JPG?raw=true "Title")
 
 ### Protocol
 The protocol uses header datatype 1, 2, and 3.
