@@ -47,10 +47,37 @@ image and the client can either enter their name to go to the main menu or they 
 16.Error handling is provided
 17.Players can get to the main menu by entering their name again or can quit typing quit
 
+### How To Run
+#### Server
+To run the server open the TCP file and enter gradle build.
+Then enter gradle TCPServer(you can either use the default port 8080, or add " -Pport='port'" at the end)
+#### Client
+To run the client open the TCP file and enter gradle build.
+Then enter gradle TCPClient(you can either use the default port 8080 and default IP address "localhost"
+or you can add " -Pport='port'" and/or " -Phost='IPAddress'" to the end.
+Once the client is runnin a GUI window will open with a "Hi There" image and an output panel asking the 
+client's name.
+Enter your name
+Then in the output panel there will be 2 options enter 1 to see the leader board or enter 2 to play a game
+If 1 is selected then the leader board will appear in the output panel along with directions to get back
+to the main menu.
+Type your name to get back to the main menu.
+If 2 is selected then the server will send the first quote and the client can either enter a guess, next,
+or more.
+If the guess is correct the server will adjust the points and send over the next quote.
+If the guess is incorrect the server will send try again into the output panel and the client can guess again.
+If the client enters more, they will see the next quote for the same character.
+If the client enters next, they will see the first quote for the next character and their score will be 
+updated to score-2 points.
+If the client guesses 3 correctly in under a minute they win and their score will be added to the leader board.
+If the client does not guess 3 correctly in under a minute they lose.
+In both the winning and losing screen the client can either enter their name to return to the main menu or
+the client can enter quit to quit. 
 
 ### UML
-https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/UDP/img/UMLdiagram.JPG?raw=true
-![https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/UDP/img/UMLdiagram.JPG?raw=true](https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/UDP/img/UMLdiagram.JPG?raw=true)
+https://raw.githubusercontent.com/mpeter56/ser321-spring2022-A-mpeter56/main/Assignment3/UDP/img/UMLdiagram.JPG
+![alt text](https://github.com/mpeter56/ser321-spring2022-A-mpeter56/Assignment3/UDP/img/UMLdiagram.JPG)
+![Alt text](\img\UMLdiagram.JPG?raw=true "Title")
 
 ### Protocol
 The protocol uses header datatype 1, 2, and 3.
