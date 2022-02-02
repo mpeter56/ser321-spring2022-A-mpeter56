@@ -80,7 +80,7 @@ the client can enter quit to quit.
 
 ### UML
 https://raw.githubusercontent.com/mpeter56/ser321-spring2022-A-mpeter56/main/Assignment3/UDP/img/UMLdiagram.JPG
-![alt text](https://github.com/mpeter56/ser321-spring2022-A-mpeter56/main/blob/Assignment3/UDP/img/UMLdiagram.JPG)
+![alt text](/UDP/img/UMLdiagram.JPG)
 ![Alt text](\img\UMLdiagram.JPG?raw=true "Title")
 
 ### Protocol
