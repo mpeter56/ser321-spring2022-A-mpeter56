@@ -1,7 +1,7 @@
 # Assignment 3 TCP
 
 ## Description
-This program can run a server by using 'gradle UDPServer' and a client using 'gradle UDPClient'
+This program can run a server by using 'gradle TCPServer' and a client using 'gradle TCPClient'
 The server will wait for a client to connect. When the client connect it will open a GUI
 with a window for pictures and an output panel, with a text field and a submit button.
 The server will automatically send the 'hi there' picture and ask the user for their name.
@@ -79,18 +79,23 @@ https://github.com/mpeter56/ser321-spring2022-A-mpeter56/blob/main/Assignment3/T
 ![alt text](img/UMLdiagram.JPG)
 
 ### Protocol
-The protocol uses JSON and is based off of the AdvancedCustomProtocol faux solution protocol.
-request: { "selected" :<string: "1"=leaderboard, "2"=quote(image), "<name>"=mainmenu, "quit"=close(out,in)
-		"more"=quote(image(same character)), "next"=score && quote(image(next character)), 
-		"<guess>"=(score && (quote(image(next character))) || win(image)) || try again || lose(image),>
-	 "name":<string: name=name>}
+The protocol uses header datatype 1, 2, and 3.
+If datatype is 1 then the payload is a string. 
+If datatype is 2 then the payload is an image.
+If datatype is 3 then the payload is an int.
+The payload has a header that tells the program what it contains e.g. selected, name, etc.
 
-response: {"datatype" <int:1-string, 2-byte array, 3-int> "type": <"string", "image", "number"}
-
-error response:{"error": <error strings> }
 ### Robust
 
-The program catches any IOExceptions and prints out the exact place in the code where it happened
-and the stack trace. 
-The server will catch a FileNotFoundException if the leader board does not exist and it will create
-a new leader board file.
+When the server asks the client's name, the client can enter anything and the server will accept it as a name.
+In the main menu the client should enter either "1" or "2", if the client enters something else the server will
+respond with "Invalid selection: " + message.get("selected") + " is not an option" and will reload the mainmenu
+with the directions for input.
+If the client is in the leaderboard they should type their name to get to the main menu, this is printed in the
+leaderboard, if the client selects something else it will print "try again"
+During the game if the client enter's anything that is not a valid option, the server will send "try again"
+any IOException is caught and will print out the stack trace as well as a message describing what exactly the 
+server was attempting to do: e.g. "Could not send win image to client"
+If the fileNotFoundException occors for the leaderboard it will be caught and the leader board will be created.
+If the connection is lost the server will catch the exception and print Client disconnect and then close the socket.
+
