@@ -297,8 +297,7 @@ class SockBaseServer extends Thread{
 	    	
 	    // catch IOException
     	}catch (IOException e) {
-    		System.out.println("IOException in turn for: " + name);
-    		e.printStackTrace();
+    		System.out.println(name + "disconnected");
     	}
     }
     
@@ -307,7 +306,7 @@ class SockBaseServer extends Thread{
      * @param out [output stream]
      * @param in [input stream]
      */
-    private void mainMenu(OutputStream out,InputStream in) {
+    private void mainMenu(OutputStream out,InputStream in) throws IOException {
     	
     	try {
     		// build a new response
@@ -376,14 +375,6 @@ class SockBaseServer extends Thread{
 	        	// send response
 	            response.writeDelimitedTo(out);
 	            
-	            try {
-	            	out.close();
-	            	in.close();
-	            }catch (IOException e) {
-	            	System.out.println("Could not close streams for " + name);
-	            	e.printStackTrace();
-	            }
-	            
 	        // if request is not of type LEADER, NEW, or QUIT    
 	        }else {
 	        	// print out error message
@@ -434,7 +425,7 @@ class SockBaseServer extends Thread{
             mainMenu(out, in);
 
         // catch Exception if the client disconnects unexpectedly
-        } catch (Exception ex) {
+        } catch (IOException ex) {
         	System.out.println("Client: " +name+ " disconnected");
             ex.printStackTrace();
         } 
@@ -742,8 +733,14 @@ class SockBaseServer extends Thread{
         	e.printStackTrace();
         }
         
+        try {
         // return to the main menu
     	mainMenu(out, in);
+    	
+    	// catch IOEexception
+        }catch (IOException e) {
+        	System.out.println(name + " disconnected");
+        }
     }
     
     /**
