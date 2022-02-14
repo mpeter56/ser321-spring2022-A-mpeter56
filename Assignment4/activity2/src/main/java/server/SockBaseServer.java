@@ -43,9 +43,9 @@ class SockBaseServer extends Thread{
     // number of wins of current client
     int wins;
     // number of tiles that should be revealed for each correct answer
-    // minimum of 6
-    // plus 6 for each win
-    // maximum of 30
+    // minimum of 8
+    // plus 8 for each win
+    // maximum of 35
     int tileReveal;
 
     /**

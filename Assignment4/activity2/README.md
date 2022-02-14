@@ -1,13 +1,24 @@
-#### Purpose:
-Demonstrate simple Client and Server communication using `SocketServer` and `Socket`classes.
+## Description
+This program contains Player.java, SockBaseClient.java, Game.java, SockBaseServer.java
 
-Here a simple protocol is defined which uses protobuf. The client reads in a json file and then creates a protobuf object from it to send it to the server. The server reads it and sends back the calculated result. 
+The server allows unlimited number of clients.
+The client can connect to the server and is asked to provide their name
+The server greets the client
+The client displays the main menu
+If the client selects 1 the server sends the leader board and the client displays it and then the main menu
+If the client selects 2 the server sends the first task and the image of the current game
+If the client selects 3 the server sends a goodbye message and the client dissconnects
 
-The response is also a protobuf but only with a result string. 
+### GamePlay
+if the client completes the task correctly tiles are revealed and the updated image is sent to all clients
+if the client is incorrect the server sends the same task with the message "Try Again"
+if the client types exit the server sends a goodbye message and the client dissconnects
+if the image is revealed all clients in the game win and the leaderboard is updated and they go back to main menu
 
-To see the proto file see: src/main/proto which is the default location for proto files. 
-
-Gradle is already setup to compile the proto files. 
+### Tile Reveal
+If a client has no wins they reveal 8 tiles per task
+For each win the client reveals an extra 8 tiles per task
+The maximum tiles per task is 35
 
 ### The procotol
 You will see a response.proto and a request.proto file. You should implement these in your program. 
@@ -43,16 +54,8 @@ Request:
 Response ERROR: anytime there is an error you should send the ERROR response and give an appropriate message. Client should act appropriately
 	- message
 
-### How to run it (optional)
-The proto file can be compiled using
+### How to run
 
-``gradle generateProto``
-
-This will also be done when building the project. 
-
-You should see the compiled proto file in Java under build/generated/source/proto/main/java/buffers
-
-Now you can run the client and server 
 
 #### Default 
 Server is Java
@@ -71,3 +74,27 @@ Run Java:
 Java
 gradle runClient -Pport=9099 -Phost='localhost'
 gradle runServer -Pport=9099
+
+## Screencast
+
+https://youtu.be/owy-qqYVas8
+
+## Fulfilled Requirements
+	1. Runs through gradle
+	2. Implements Protobuf
+	3. Main Menu
+	4. Leader board
+	5. Leader board is consistent
+	6. Start game
+	7. Multiple clients in the same game
+	8. Win and return to main menu
+	9. Server sends task and checks it
+	10. Client presents and tasks are small
+	11. game quits gracefully
+	12. Server does not crash when client disconnects
+	13. Good and fun tasks
+	14. Server Running on aws and posted in #servers
+	15. good set up for tile reveal
+	16. test 3 other servers and comment on slack
+	17. pushes image updates
+	18. user can exit by typing exit in game
