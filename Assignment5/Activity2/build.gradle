@@ -1,0 +1,73 @@
+// set as java application
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+   // https://mvnrepository.com/artifact/org.json/json
+compile group: 'org.json', name: 'json', version: '20200518'
+}
+
+//define main class
+mainClassName = 'NodeStarter'
+
+task Leader(type: JavaExec) {
+  group 'simple'
+  description 'Base sample'
+
+  classpath = sourceSets.main.runtimeClasspath
+
+  main = 'Activity2.Leader'
+  standardInput = System.in
+
+  args 8000
+}
+
+task node1(type: JavaExec) {
+  group 'simple'
+  description 'Base sample'
+
+  classpath = sourceSets.main.runtimeClasspath
+
+  main = 'Activity2.Nodes'
+ 
+  if (project.hasProperty("money")){
+  	args(project.getProperty('money'));
+  } else{
+  	args(1000);
+  }
+  args 8001;
+
+}
+
+task node2(type: JavaExec) {
+  group 'simple'
+  description 'Base sample'
+
+  classpath = sourceSets.main.runtimeClasspath
+
+  main = 'Activity2.Nodes'
+ 
+  if (project.hasProperty("money")){
+  	args(project.getProperty('money'));
+  } else{
+  	args(1000);
+  }
+  args 8002;
+
+}
+
+
+task Client(type: JavaExec) {
+  group 'simple'
+  description 'Base sample'
+
+  classpath = sourceSets.main.runtimeClasspath
+
+  main = 'Activity2.Client'
+  standardInput = System.in
+ 
+
+}
