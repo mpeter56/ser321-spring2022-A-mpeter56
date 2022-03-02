@@ -1,5 +1,0 @@
-
-xSquare~Set shape name to square. Use width for the side length parameter. Height will be ignored~width * width~4 * width
-vRectangle~Set shape name to rectangle, use width for width, use height for height~width * height~2 * width + 2 *height
-ncircle~Set shape name to circle. Use width for radius. Height will be ignored~3.14 * width *width~2*3.14*width
-parallelogram~and base in perimeter and use height for height in area and side in perimeter~width * height~2 * (width + height)
